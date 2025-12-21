@@ -1,6 +1,4 @@
-[00:00:00.669] Server  LOG      ✓ Ready in 499ms
-[00:18:13.831] Server  LOG      ✓ Compiled in 117ms
-<<<<<<< HEAD
-=======
-[00:23:46.421] Server  LOG      ✓ Compiled in 25ms
->>>>>>> 98e6cf3 (added .env file)
+[00:00:00.681] Server  LOG      ✓ Ready in 505ms
+[00:10:00.262] Server  LOG      ✓ Compiled in 100ms
+[00:10:53.966] Server  LOG      ✓ Compiled in 69ms
+[00:11:27.586] Server  LOG      ✓ Compiled in 56ms

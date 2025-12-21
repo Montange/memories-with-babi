@@ -133,12 +133,14 @@ __turbopack_context__.s([
     "default",
     ()=>MemoryCard
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$components$2f$ImageCarousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/components/ImageCarousel.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/lib/appwrite.ts [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -146,17 +148,18 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function MemoryCard(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(29);
-    if ($[0] !== "84586076ad71505739825546d06cd11f1b9a1bf28dc377e55146c4db4b225043") {
-        for(let $i = 0; $i < 29; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
+    if ($[0] !== "54a1b620f77bdd303483b40e527940290e1744820b8e784866a63bdd212f04a2") {
+        for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "84586076ad71505739825546d06cd11f1b9a1bf28dc377e55146c4db4b225043";
+        $[0] = "54a1b620f77bdd303483b40e527940290e1744820b8e784866a63bdd212f04a2";
     }
     const { memory } = t0;
-    const [expandedImage, setExpandedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [expandedImageId, setExpandedImageId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     let t1;
     if ($[1] !== memory.date) {
         t1 = new Date(memory.date).toLocaleDateString("en-US", {
@@ -170,144 +173,163 @@ function MemoryCard(t0) {
         t1 = $[2];
     }
     const formattedDate = t1;
+    const bucketId = ("TURBOPACK compile-time value", "693ed25500011cc40c48");
     let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = ({
+            "MemoryCard[getImageUrl]": (fileId)=>__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["storage"].getFileView(bucketId, fileId)
+        })["MemoryCard[getImageUrl]"];
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    const getImageUrl = t2;
     let t3;
     let t4;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = {
+    let t5;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = {
             opacity: 0,
             y: 30
         };
-        t3 = {
+        t4 = {
             opacity: 1,
             y: 0
         };
-        t4 = {
+        t5 = {
             duration: 0.6
         };
-        $[3] = t2;
         $[4] = t3;
         $[5] = t4;
-    } else {
-        t2 = $[3];
-        t3 = $[4];
-        t4 = $[5];
-    }
-    let t5;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = ({
-            "MemoryCard[<ImageCarousel>.onImageClick]": (img)=>setExpandedImage(img)
-        })["MemoryCard[<ImageCarousel>.onImageClick]"];
         $[6] = t5;
     } else {
+        t3 = $[4];
+        t4 = $[5];
         t5 = $[6];
     }
     let t6;
     if ($[7] !== memory.imageIds) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$components$2f$ImageCarousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            images: memory.imageIds,
-            onImageClick: t5
-        }, void 0, false, {
-            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 70,
-            columnNumber: 10
-        }, this);
+        t6 = memory.imageIds.map(getImageUrl);
         $[7] = memory.imageIds;
         $[8] = t6;
     } else {
         t6 = $[8];
     }
     let t7;
-    if ($[9] !== formattedDate) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = ({
+            "MemoryCard[<ImageCarousel>.onImageClick]": (fileId_0)=>setExpandedImageId(fileId_0)
+        })["MemoryCard[<ImageCarousel>.onImageClick]"];
+        $[9] = t7;
+    } else {
+        t7 = $[9];
+    }
+    let t8;
+    if ($[10] !== t6) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$components$2f$ImageCarousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            images: t6,
+            onImageClick: t7
+        }, void 0, false, {
+            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
+            lineNumber: 90,
+            columnNumber: 10
+        }, this);
+        $[10] = t6;
+        $[11] = t8;
+    } else {
+        t8 = $[11];
+    }
+    let t9;
+    if ($[12] !== formattedDate) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-sm text-[#6D4C41]",
             children: formattedDate
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 78,
+            lineNumber: 98,
             columnNumber: 10
         }, this);
-        $[9] = formattedDate;
-        $[10] = t7;
+        $[12] = formattedDate;
+        $[13] = t9;
     } else {
-        t7 = $[10];
+        t9 = $[13];
     }
-    let t8;
-    if ($[11] !== memory.title) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+    let t10;
+    if ($[14] !== memory.title) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             className: "text-xl font-semibold mt-1 text-[#6D4C41]",
             children: memory.title
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 86,
-            columnNumber: 10
+            lineNumber: 106,
+            columnNumber: 11
         }, this);
-        $[11] = memory.title;
-        $[12] = t8;
+        $[14] = memory.title;
+        $[15] = t10;
     } else {
-        t8 = $[12];
+        t10 = $[15];
     }
-    let t9;
-    if ($[13] !== memory.description) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    let t11;
+    if ($[16] !== memory.description) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-[#6D4C41] mt-2 leading-relaxed",
             children: memory.description
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 94,
-            columnNumber: 10
-        }, this);
-        $[13] = memory.description;
-        $[14] = t9;
-    } else {
-        t9 = $[14];
-    }
-    let t10;
-    if ($[15] !== t7 || $[16] !== t8 || $[17] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "p-6",
-            children: [
-                t7,
-                t8,
-                t9
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 102,
+            lineNumber: 114,
             columnNumber: 11
         }, this);
-        $[15] = t7;
-        $[16] = t8;
-        $[17] = t9;
-        $[18] = t10;
+        $[16] = memory.description;
+        $[17] = t11;
     } else {
-        t10 = $[18];
-    }
-    let t11;
-    if ($[19] !== t10 || $[20] !== t6) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-            initial: t2,
-            whileInView: t3,
-            transition: t4,
-            className: "bg-white rounded-2xl shadow-md overflow-hidden w-full",
-            children: [
-                t6,
-                t10
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 112,
-            columnNumber: 11
-        }, this);
-        $[19] = t10;
-        $[20] = t6;
-        $[21] = t11;
-    } else {
-        t11 = $[21];
+        t11 = $[17];
     }
     let t12;
-    if ($[22] !== expandedImage) {
-        t12 = expandedImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+    if ($[18] !== t10 || $[19] !== t11 || $[20] !== t9) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "p-6",
+            children: [
+                t9,
+                t10,
+                t11
+            ]
+        }, void 0, true, {
+            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
+            lineNumber: 122,
+            columnNumber: 11
+        }, this);
+        $[18] = t10;
+        $[19] = t11;
+        $[20] = t9;
+        $[21] = t12;
+    } else {
+        t12 = $[21];
+    }
+    let t13;
+    if ($[22] !== t12 || $[23] !== t8) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: t3,
+            whileInView: t4,
+            transition: t5,
+            className: "bg-white rounded-2xl shadow-md overflow-hidden w-full",
+            children: [
+                t8,
+                t12
+            ]
+        }, void 0, true, {
+            fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
+            lineNumber: 132,
+            columnNumber: 11
+        }, this);
+        $[22] = t12;
+        $[23] = t8;
+        $[24] = t13;
+    } else {
+        t13 = $[24];
+    }
+    let t14;
+    if ($[25] !== expandedImageId) {
+        t14 = expandedImageId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             initial: {
                 opacity: 0
             },
@@ -318,11 +340,11 @@ function MemoryCard(t0) {
                 opacity: 0
             },
             onClick: {
-                "MemoryCard[<motion.div>.onClick]": ()=>setExpandedImage(null)
+                "MemoryCard[<motion.div>.onClick]": ()=>setExpandedImageId(null)
             }["MemoryCard[<motion.div>.onClick]"],
             className: "fixed inset-0 z-50 flex items-center justify-center bg-[#FFF1E6]",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].img, {
-                src: expandedImage,
+                src: getImageUrl(expandedImageId),
                 alt: "Expanded Image",
                 initial: {
                     scale: 0.8,
@@ -342,50 +364,50 @@ function MemoryCard(t0) {
                 className: "max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg cursor-pointer"
             }, "image", false, {
                 fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-                lineNumber: 129,
+                lineNumber: 149,
                 columnNumber: 121
             }, this)
         }, "overlay", false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 121,
-            columnNumber: 28
+            lineNumber: 141,
+            columnNumber: 30
         }, this);
-        $[22] = expandedImage;
-        $[23] = t12;
+        $[25] = expandedImageId;
+        $[26] = t14;
     } else {
-        t12 = $[23];
+        t14 = $[26];
     }
-    let t13;
-    if ($[24] !== t12) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-            children: t12
+    let t15;
+    if ($[27] !== t14) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+            children: t14
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 148,
+            lineNumber: 168,
             columnNumber: 11
         }, this);
-        $[24] = t12;
-        $[25] = t13;
+        $[27] = t14;
+        $[28] = t15;
     } else {
-        t13 = $[25];
+        t15 = $[28];
     }
-    let t14;
-    if ($[26] !== t11 || $[27] !== t13) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+    let t16;
+    if ($[29] !== t13 || $[30] !== t15) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
-                t11,
-                t13
+                t13,
+                t15
             ]
         }, void 0, true);
-        $[26] = t11;
-        $[27] = t13;
-        $[28] = t14;
+        $[29] = t13;
+        $[30] = t15;
+        $[31] = t16;
     } else {
-        t14 = $[28];
+        t16 = $[31];
     }
-    return t14;
+    return t16;
 }
-_s(MemoryCard, "+U8yK6q4A/WC0g7bofNq42VL6OQ=");
+_s(MemoryCard, "q8VLik8dHvUQ4aeFuHlp5tRsL20=");
 _c = MemoryCard;
 var _c;
 __turbopack_context__.k.register(_c, "MemoryCard");
