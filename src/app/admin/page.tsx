@@ -74,6 +74,7 @@ export default function AdminPage() {
         description,
         date: isoDate,
         imageIds: uploadedImageIds,
+        isPublished: true, // <-- add this
       };
 
       await databases.createDocument(databaseId, collectionId, ID.unique(), newMemory);
