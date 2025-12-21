@@ -60,7 +60,7 @@ export default function HomeClient({ memories }: { memories: Memory[] }) {
       ))}
 
       <h3 className="text-center text-xl font-semibold">2026</h3>
-      <p className="text-center text-lg">Hello, Bubby!</p>
+      <p className="text-center text-lg">Hello, Babi!</p>
 
       <div className="w-vw flex justify-center items-center mx-2 p-10 bg-white rounded-md">
           <h3 className="text-center text-xl font-semibold mt-1">

@@ -553,11 +553,11 @@ var _s = __turbopack_context__.k.signature();
 function HomeClient(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(19);
-    if ($[0] !== "9653a6c2d6e2f5fd6472c7a33ce792bbce483049ec265dc78ce80af131070489") {
+    if ($[0] !== "90b13e688da31b79f13073d61cc1d69dada7f1f3a543ee4273be536d74e1e370") {
         for(let $i = 0; $i < 19; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9653a6c2d6e2f5fd6472c7a33ce792bbce483049ec265dc78ce80af131070489";
+        $[0] = "90b13e688da31b79f13073d61cc1d69dada7f1f3a543ee4273be536d74e1e370";
     }
     const { memories } = t0;
     const [playingID, setPlayingID] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -668,7 +668,7 @@ function HomeClient(t0) {
         }, this);
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-center text-lg",
-            children: "Hello, Bubby!"
+            children: "Hello, Babi!"
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/app/HomeClient.tsx",
             lineNumber: 86,
