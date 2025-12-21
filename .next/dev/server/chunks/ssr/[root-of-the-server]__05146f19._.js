@@ -107,17 +107,22 @@ __turbopack_context__.s([
     "getMemories",
     ()=>getMemories
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$appwrite$2f$dist$2f$esm$2f$sdk$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/appwrite/dist/esm/sdk.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/lib/appwrite.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$appwrite$2f$dist$2f$esm$2f$sdk$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/appwrite/dist/esm/sdk.js [app-rsc] (ecmascript)");
 ;
 ;
-const databaseID = ("TURBOPACK compile-time value", "693ecf540006482697a0");
-const collectionID = ("TURBOPACK compile-time value", "Memories");
 async function getMemories() {
     const res = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["databases"].listDocuments(databaseID, collectionID, [
         __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$appwrite$2f$dist$2f$esm$2f$sdk$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Query"].orderAsc("date")
     ]);
-    return res.documents;
+    return res.documents.map((doc)=>({
+            $id: doc.$id,
+            title: doc.title,
+            description: doc.description,
+            date: doc.date,
+            imageIds: doc.imageIds,
+            isPublished: doc.isPublished
+        }));
 }
 }),
 "[project]/Downloads/Album with Babi/memories-with-babi/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
