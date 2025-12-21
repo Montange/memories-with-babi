@@ -2,3 +2,10 @@
 [00:10:00.262] Server  LOG      ✓ Compiled in 100ms
 [00:10:53.966] Server  LOG      ✓ Compiled in 69ms
 [00:11:27.586] Server  LOG      ✓ Compiled in 56ms
+[00:12:02.869] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:02.875] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:02.898] Browser ERROR   uncaughtError: TypeError: __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["storage"].getFileViewUrl is not a function. (In '__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["storage"].getFileViewUrl(bucketId, fileId)', '__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["storage"].getFileViewUrl' is undefined)
+[00:14:28.992] Server  LOG      ✓ Compiled in 96ms
+[00:15:18.145] Server  LOG      ✓ Compiled in 89ms
+[00:15:31.389] Server  LOG      ✓ Compiled in 34ms
+[00:15:45.889] Server  LOG      ✓ Compiled in 20ms

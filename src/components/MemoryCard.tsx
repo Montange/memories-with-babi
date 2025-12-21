@@ -1,9 +1,10 @@
 "use client";
+
 import { Memory } from "@/types/memory";
 import { AnimatePresence, motion } from "framer-motion";
 import ImageCarousel from "./ImageCarousel";
 import { useState } from "react";
-import { storage } from "@/lib/appwrite";
+import { getImageUrl } from "@/lib/imageHandle";
 
 type Props = {
   memory: Memory;
@@ -18,11 +19,6 @@ export default function MemoryCard({ memory }: Props) {
     day: "numeric",
   });
 
-  const bucketId = process.env.NEXT_PUBLIC_APPWRITE_BUCKET_ID!;
-
-  // Convert Appwrite file ID to a public URL
-  const getImageUrl = (fileId: string) => storage.getFileView(bucketId, fileId);
-
   return (
     <>
       <motion.div
@@ -32,19 +28,14 @@ export default function MemoryCard({ memory }: Props) {
         className="bg-white rounded-2xl shadow-md overflow-hidden w-full"
       >
         <ImageCarousel
-  images={memory.imageIds.map(getImageUrl)}
-  onImageClick={(fileId: string) => setExpandedImageId(fileId)}
-/>
-
+          images={memory.imageIds} // pass Appwrite file IDs
+          onImageClick={(fileId) => setExpandedImageId(fileId)}
+        />
 
         <div className="p-6">
           <p className="text-sm text-[#6D4C41]">{formattedDate}</p>
-          <h3 className="text-xl font-semibold mt-1 text-[#6D4C41]">
-            {memory.title}
-          </h3>
-          <p className="text-[#6D4C41] mt-2 leading-relaxed">
-            {memory.description}
-          </p>
+          <h3 className="text-xl font-semibold mt-1 text-[#6D4C41]">{memory.title}</h3>
+          <p className="text-[#6D4C41] mt-2 leading-relaxed">{memory.description}</p>
         </div>
       </motion.div>
 
@@ -60,7 +51,7 @@ export default function MemoryCard({ memory }: Props) {
           >
             <motion.img
               key="image"
-              src={getImageUrl(expandedImageId)}
+              src={getImageUrl(expandedImageId)} // generate URL here
               alt="Expanded Image"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}

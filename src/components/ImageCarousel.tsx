@@ -1,24 +1,26 @@
+"use client";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { getImageUrl } from "@/lib/imageHandle";
 
 type Props = {
-  images: string[];
-  onImageClick?: (url: string) => void; // optional click handler
+  images: string[]; // Appwrite file IDs
+  onImageClick?: (fileId: string) => void;
 };
 
 export default function ImageCarousel({ images, onImageClick }: Props) {
   return (
     <Swiper spaceBetween={10} slidesPerView={1}>
-      {images.map((fileId, i) => {
-        const url = getImageUrl(fileId);
+      {images.map((fileId) => {
+        const url = getImageUrl(fileId); // generate URL for display
         return (
-          <SwiperSlide key={i}>
+          <SwiperSlide key={fileId}>
             <img
               src={url}
-              alt={`Image ${i + 1}`}
+              alt="Memory Image"
               className="w-full h-56 object-contain rounded-lg bg-[#FFC1CC]"
-              onClick={() => onImageClick?.(url)} // call click handler if provided
+              onClick={() => onImageClick?.(fileId)} // pass file ID
             />
           </SwiperSlide>
         );
