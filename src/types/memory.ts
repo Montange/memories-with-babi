@@ -5,6 +5,5 @@ export interface Memory extends Models.Document {
     description: string;
     date: string;
     imageIds: string[];
-    isPublished: boolean; // <-- add this
-
+    musicFileID?: string;
 }

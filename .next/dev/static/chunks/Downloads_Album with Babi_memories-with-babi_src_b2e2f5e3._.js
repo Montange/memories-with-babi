@@ -29,10 +29,10 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/lib/appwrite.ts [app-client] (ecmascript)");
 ;
-const getImageUrl = (fileId)=>{
+function getImageUrl(fileId) {
     const bucketId = ("TURBOPACK compile-time value", "693ed25500011cc40c48");
     return __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$appwrite$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["storage"].getFileView(bucketId, fileId);
-};
+}
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -48,7 +48,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Ba
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/swiper/swiper-react.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$imageHandle$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/lib/imageHandle.ts [app-client] (ecmascript)");
-"use client";
 ;
 ;
 ;
@@ -56,11 +55,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Ba
 ;
 function ImageCarousel(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(8);
-    if ($[0] !== "bd90e7401527c20bf1c3451dd8ff822b2ebbb50b44bba0b2890ab52797ada047") {
+    if ($[0] !== "42a28427f41eff17b04fa4c77df093ad0ed7bb8b269cd0dfaf1a19fb9c1dc032") {
         for(let $i = 0; $i < 8; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "bd90e7401527c20bf1c3451dd8ff822b2ebbb50b44bba0b2890ab52797ada047";
+        $[0] = "42a28427f41eff17b04fa4c77df093ad0ed7bb8b269cd0dfaf1a19fb9c1dc032";
     }
     const { images, onImageClick } = t0;
     let t1;
@@ -68,24 +67,24 @@ function ImageCarousel(t0) {
         let t2;
         if ($[4] !== onImageClick) {
             t2 = ({
-                "ImageCarousel[images.map()]": (fileId)=>{
+                "ImageCarousel[images.map()]": (fileId, i)=>{
                     const url = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$imageHandle$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getImageUrl"])(fileId);
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: url,
-                            alt: "Memory Image",
+                            alt: `Image ${i + 1}`,
                             className: "w-full h-56 object-contain rounded-lg bg-[#FFC1CC]",
                             onClick: {
-                                "ImageCarousel[images.map() > <img>.onClick]": ()=>onImageClick?.(fileId)
+                                "ImageCarousel[images.map() > <img>.onClick]": ()=>onImageClick?.(url)
                             }["ImageCarousel[images.map() > <img>.onClick]"]
                         }, void 0, false, {
                             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/ImageCarousel.tsx",
-                            lineNumber: 30,
-                            columnNumber: 44
+                            lineNumber: 28,
+                            columnNumber: 39
                         }, this)
-                    }, fileId, false, {
+                    }, i, false, {
                         fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/ImageCarousel.tsx",
-                        lineNumber: 30,
+                        lineNumber: 28,
                         columnNumber: 18
                     }, this);
                 }
@@ -110,7 +109,7 @@ function ImageCarousel(t0) {
             children: t1
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/ImageCarousel.tsx",
-            lineNumber: 49,
+            lineNumber: 47,
             columnNumber: 10
         }, this);
         $[6] = t1;
@@ -140,7 +139,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Ba
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$components$2f$ImageCarousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/components/ImageCarousel.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$imageHandle$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Album with Babi/memories-with-babi/src/lib/imageHandle.ts [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -148,18 +146,17 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function MemoryCard(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(29);
-    if ($[0] !== "f34355b0e98be8b10e84fb254dbe4f94b1ffa29d95959d9be65210fbf05d26c3") {
+    if ($[0] !== "84586076ad71505739825546d06cd11f1b9a1bf28dc377e55146c4db4b225043") {
         for(let $i = 0; $i < 29; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f34355b0e98be8b10e84fb254dbe4f94b1ffa29d95959d9be65210fbf05d26c3";
+        $[0] = "84586076ad71505739825546d06cd11f1b9a1bf28dc377e55146c4db4b225043";
     }
     const { memory } = t0;
-    const [expandedImageId, setExpandedImageId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [expandedImage, setExpandedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     let t1;
     if ($[1] !== memory.date) {
         t1 = new Date(memory.date).toLocaleDateString("en-US", {
@@ -199,7 +196,7 @@ function MemoryCard(t0) {
     let t5;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = ({
-            "MemoryCard[<ImageCarousel>.onImageClick]": (fileId)=>setExpandedImageId(fileId)
+            "MemoryCard[<ImageCarousel>.onImageClick]": (img)=>setExpandedImage(img)
         })["MemoryCard[<ImageCarousel>.onImageClick]"];
         $[6] = t5;
     } else {
@@ -212,7 +209,7 @@ function MemoryCard(t0) {
             onImageClick: t5
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 71,
+            lineNumber: 70,
             columnNumber: 10
         }, this);
         $[7] = memory.imageIds;
@@ -227,7 +224,7 @@ function MemoryCard(t0) {
             children: formattedDate
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 79,
+            lineNumber: 78,
             columnNumber: 10
         }, this);
         $[9] = formattedDate;
@@ -242,7 +239,7 @@ function MemoryCard(t0) {
             children: memory.title
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 87,
+            lineNumber: 86,
             columnNumber: 10
         }, this);
         $[11] = memory.title;
@@ -257,7 +254,7 @@ function MemoryCard(t0) {
             children: memory.description
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 95,
+            lineNumber: 94,
             columnNumber: 10
         }, this);
         $[13] = memory.description;
@@ -276,7 +273,7 @@ function MemoryCard(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 103,
+            lineNumber: 102,
             columnNumber: 11
         }, this);
         $[15] = t7;
@@ -299,7 +296,7 @@ function MemoryCard(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 113,
+            lineNumber: 112,
             columnNumber: 11
         }, this);
         $[19] = t10;
@@ -309,8 +306,8 @@ function MemoryCard(t0) {
         t11 = $[21];
     }
     let t12;
-    if ($[22] !== expandedImageId) {
-        t12 = expandedImageId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+    if ($[22] !== expandedImage) {
+        t12 = expandedImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             initial: {
                 opacity: 0
             },
@@ -321,11 +318,11 @@ function MemoryCard(t0) {
                 opacity: 0
             },
             onClick: {
-                "MemoryCard[<motion.div>.onClick]": ()=>setExpandedImageId(null)
+                "MemoryCard[<motion.div>.onClick]": ()=>setExpandedImage(null)
             }["MemoryCard[<motion.div>.onClick]"],
             className: "fixed inset-0 z-50 flex items-center justify-center bg-[#FFF1E6]",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].img, {
-                src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Album__with__Babi$2f$memories$2d$with$2d$babi$2f$src$2f$lib$2f$imageHandle$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getImageUrl"])(expandedImageId),
+                src: expandedImage,
                 alt: "Expanded Image",
                 initial: {
                     scale: 0.8,
@@ -345,15 +342,15 @@ function MemoryCard(t0) {
                 className: "max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg cursor-pointer"
             }, "image", false, {
                 fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-                lineNumber: 130,
+                lineNumber: 129,
                 columnNumber: 121
             }, this)
         }, "overlay", false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 122,
-            columnNumber: 30
+            lineNumber: 121,
+            columnNumber: 28
         }, this);
-        $[22] = expandedImageId;
+        $[22] = expandedImage;
         $[23] = t12;
     } else {
         t12 = $[23];
@@ -364,7 +361,7 @@ function MemoryCard(t0) {
             children: t12
         }, void 0, false, {
             fileName: "[project]/Downloads/Album with Babi/memories-with-babi/src/components/MemoryCard.tsx",
-            lineNumber: 149,
+            lineNumber: 148,
             columnNumber: 11
         }, this);
         $[24] = t12;
@@ -388,7 +385,7 @@ function MemoryCard(t0) {
     }
     return t14;
 }
-_s(MemoryCard, "q8VLik8dHvUQ4aeFuHlp5tRsL20=");
+_s(MemoryCard, "+U8yK6q4A/WC0g7bofNq42VL6OQ=");
 _c = MemoryCard;
 var _c;
 __turbopack_context__.k.register(_c, "MemoryCard");

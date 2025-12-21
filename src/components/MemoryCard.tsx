@@ -1,26 +1,38 @@
 "use client";
-
 import { Memory } from "@/types/memory";
 import { AnimatePresence, motion } from "framer-motion";
 import ImageCarousel from "./ImageCarousel";
-import { useState } from "react";
-import { getImageUrl } from "@/lib/imageHandle";
+import { useMemo, useState } from "react";
 
 type Props = {
   memory: Memory;
+  isPlaying: boolean;
+  disabled: boolean;
+  onPlayClick: () => void;
 };
 
-export default function MemoryCard({ memory }: Props) {
-  const [expandedImageId, setExpandedImageId] = useState<string | null>(null);
+export default function MemoryCard({
+  memory,
+  isPlaying,
+  disabled,
+  onPlayClick,
+}: Props) {
+  const [expandedImage, setExpandedImage] = useState<string | null>(null);
+  const musicIcons = ["/TOFI.png", "/TOBI.png"] as const;
 
   const formattedDate = new Date(memory.date).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
+  const baseIcon =
+    musicIcons[memory.$id.charCodeAt(memory.$id.length - 1) % musicIcons.length];
+
+  const playingIcon = musicIcons.find((icon) => icon !== baseIcon)!;
 
   return (
     <>
+      {" "}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -28,30 +40,44 @@ export default function MemoryCard({ memory }: Props) {
         className="bg-white rounded-2xl shadow-md overflow-hidden w-full"
       >
         <ImageCarousel
-          images={memory.imageIds} // pass Appwrite file IDs
-          onImageClick={(fileId) => setExpandedImageId(fileId)}
+          images={memory.imageIds}
+          onImageClick={(img) => setExpandedImage(img)}
         />
 
         <div className="p-6">
+          {memory.musicFileID && (
+            <div className="relative w-full h-full">
+              <img
+                src={isPlaying ? playingIcon : baseIcon}
+                alt="Play Button"
+                onClick={onPlayClick}
+                className="absolute top-[-15px] right-0 w-10 cursor-pointer"
+              />
+            </div>
+          )}
+
           <p className="text-sm text-[#6D4C41]">{formattedDate}</p>
-          <h3 className="text-xl font-semibold mt-1 text-[#6D4C41]">{memory.title}</h3>
-          <p className="text-[#6D4C41] mt-2 leading-relaxed">{memory.description}</p>
+          <h3 className="text-xl font-semibold mt-1 text-[#6D4C41]">
+            {memory.title}
+          </h3>
+          <p className="text-[#6D4C41] mt-2 leading-relaxed">
+            {memory.description}
+          </p>
         </div>
       </motion.div>
-
       <AnimatePresence>
-        {expandedImageId && (
+        {expandedImage && (
           <motion.div
             key={"overlay"}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={() => setExpandedImageId(null)}
+            onClick={() => setExpandedImage(null)}
             className="fixed inset-0 z-50 flex items-center justify-center bg-[#FFF1E6]"
           >
             <motion.img
               key="image"
-              src={getImageUrl(expandedImageId)} // generate URL here
+              src={expandedImage}
               alt="Expanded Image"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}

@@ -1,6 +1,6 @@
-import { storage } from "@/lib/appwrite";
+import { storage } from "./appwrite";
 
-export const getImageUrl = (fileId: string) => {
-  const bucketId = process.env.NEXT_PUBLIC_APPWRITE_BUCKET_ID!;
-  return storage.getFileView(bucketId, fileId);
-};
+export function getImageUrl(fileId: string): string {
+    const bucketId = process.env.NEXT_PUBLIC_APPWRITE_BUCKET_ID!;
+    return storage.getFileView(bucketId, fileId);
+}
