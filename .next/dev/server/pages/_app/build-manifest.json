@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/c04d5_next_dist_compiled_ea5dc031._.js",
+      "static/chunks/c04d5_next_dist_shared_lib_3008ff39._.js",
+      "static/chunks/c04d5_next_dist_client_9002f9fe._.js",
+      "static/chunks/c04d5_next_dist_6f17e51c._.js",
+      "static/chunks/c04d5_next_app_41712b7c.js",
+      "static/chunks/[next]_entry_page-loader_ts_f537469a._.js",
+      "static/chunks/c04d5_react-dom_7bccf344._.js",
+      "static/chunks/c04d5_cd4fbfe4._.js",
+      "static/chunks/[root-of-the-server]__f0e1d309._.js",
+      "static/chunks/Downloads_Album with Babi_memories-with-babi_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Downloads_Album with Babi_memories-with-babi_pages__app_6410db0a._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

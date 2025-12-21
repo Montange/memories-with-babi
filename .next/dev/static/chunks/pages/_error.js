@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/c04d5_next_dist_compiled_ea5dc031._.js",
+  "static/chunks/c04d5_next_dist_shared_lib_14ea0e64._.js",
+  "static/chunks/c04d5_next_dist_client_9002f9fe._.js",
+  "static/chunks/c04d5_next_dist_fa4c4103._.js",
+  "static/chunks/c04d5_next_error_1da10b5d.js",
+  "static/chunks/[next]_entry_page-loader_ts_02134a53._.js",
+  "static/chunks/c04d5_react-dom_7bccf344._.js",
+  "static/chunks/c04d5_cd4fbfe4._.js",
+  "static/chunks/[root-of-the-server]__65b5bd7f._.js",
+  "static/chunks/Downloads_Album with Babi_memories-with-babi_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Downloads_Album with Babi_memories-with-babi_pages__error_3a7951fd._.js"
+])
